@@ -2,6 +2,7 @@
 # Remove/modify this line if the repository is meant to be open-source
 *.* filter=git-crypt diff=git-crypt
 .gitattributes !filter !diff
+*.* linguist-language=arduino
 
 # These files are text and should be normalized (Convert crlf => lf)
 *.php text
